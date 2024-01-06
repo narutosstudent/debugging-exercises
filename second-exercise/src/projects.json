@@ -1,0 +1,68 @@
+[
+  {
+    "id": "project1",
+    "name": "Website Redesign",
+    "tasks": [
+      {
+        "id": "task1",
+        "name": "Design Mockups",
+        "status": "in progress",
+        "dependencies": ["task3"]
+      },
+      {
+        "id": "task2",
+        "name": "Develop Landing Page",
+        "status": "completed",
+        "dependencies": []
+      },
+      {
+        "id": "task3",
+        "name": "Gather Requirements",
+        "status": "completed",
+        "dependencies": []
+      },
+      {
+        "id": "task4",
+        "name": "Implement Backend",
+        "status": "in progress",
+        "dependencies": ["task2", "task3"]
+      },
+      {
+        "id": "task5",
+        "name": "QA Testing",
+        "status": "not started",
+        "dependencies": ["task1", "task4"]
+      }
+    ]
+  },
+  {
+    "id": "project2",
+    "name": "Mobile App Development",
+    "tasks": [
+      {
+        "id": "task6",
+        "name": "UI Design",
+        "status": "completed",
+        "dependencies": []
+      },
+      {
+        "id": "task7",
+        "name": "App Prototyping",
+        "status": "in progress",
+        "dependencies": ["task6"]
+      },
+      {
+        "id": "task8",
+        "name": "Backend Integration",
+        "status": "not started",
+        "dependencies": ["task7"]
+      },
+      {
+        "id": "task9",
+        "name": "User Testing",
+        "status": "not started",
+        "dependencies": ["task8"]
+      }
+    ]
+  }
+]

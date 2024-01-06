@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user1",
+    "name": "Alice Johnson",
+    "role": "Developer"
+  },
+  {
+    "id": "user2",
+    "name": "Bob Smith",
+    "role": "Designer"
+  },
+  {
+    "id": "user3",
+    "name": "Charlie Davis",
+    "role": "Project Manager"
+  },
+  {
+    "id": "user4",
+    "name": "Diana Evans",
+    "role": "QA Analyst"
+  }
+]
